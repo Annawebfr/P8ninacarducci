@@ -372,7 +372,6 @@ input[type="submit"] {
 
 /** code ajouté**/
 /* ✅ Optimisation des performances et du SEO */
-
 /* Empêcher les décalages de mise en page (CLS) */
 img {
 	width: auto;
@@ -386,9 +385,9 @@ img {
   }
   
   /* Optimisation du chargement des images */
-  img {
+  /**img {
 	loading: lazy;
-  }
+  }/**
   
   /* Amélioration de la navigation mobile */
   @media all and (max-width: 650px) {
