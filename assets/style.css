@@ -370,3 +370,40 @@ input[type="submit"] {
 	}
 }
 
+/** code ajouté**/
+/* ✅ Optimisation des performances et du SEO */
+
+/* Empêcher les décalages de mise en page (CLS) */
+img {
+	width: auto;
+	height: auto;
+	display: block;
+  }
+  
+  /* Charger les polices de manière optimisée */
+  body {
+	font-display: swap;
+  }
+  
+  /* Optimisation du chargement des images */
+  img {
+	loading: lazy;
+  }
+  
+  /* Amélioration de la navigation mobile */
+  @media all and (max-width: 650px) {
+	.top-header {
+	  flex-direction: column;
+	  padding-inline: 0;
+	}
+	.top-header .nav, .top-header .nav ul {
+	  width: 100%;
+	  padding: 0;
+	}
+	.top-header .nav li {
+	  flex: 1;
+	  padding-block: 1em;
+	  text-align: center;
+	}
+  }
+  
